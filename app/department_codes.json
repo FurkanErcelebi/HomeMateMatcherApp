@@ -1,0 +1,39 @@
+{
+  "departments": [
+    {
+      "name": "Bilgisayar Mühendisliği",
+      "label": "CE",
+      "code": 110
+    },
+    {
+      "name": "Elektrik Mühendisliği",
+      "label": "ELK",
+      "code": 129
+    },
+    {
+      "name": "Kontrol ve Otomasyon Mühendisliği",
+      "label": "ATO",
+      "code": 159
+    },
+    {
+      "name": "İktisat",
+      "label": "BSN",
+      "code": 359
+    },
+    {
+      "name": "İnşaat Mühendisliği",
+      "label": "CONSTR",
+      "code": 429
+    },
+    {
+      "name": "Endüstri Mühendisliği",
+      "label": "INDS",
+      "code": 619
+    },
+    {
+      "name": "Makine Mühendisliği",
+      "label": "INDS",
+      "code": 659
+    }
+  ]
+}
