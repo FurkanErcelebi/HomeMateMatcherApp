@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "firstName": "testFirstName1",
+      "lastName": "testLastName1",
+      "department": "departments/I2J9BHyEOdHDvd4tOJcO",
+      "isVerified": true,
+      "hostingDuration": 30,
+      "distanceToCampus": 212,
+      "status": "not_in_search"
+    },
+    {
+      "firstName": "testFirstName2",
+      "lastName": "testLastName2",
+      "department": "departments/c36BGJVZlkBXKPc5rvS3",
+      "isVerified": true,
+      "hostingDuration": 45,
+      "distanceToCampus": 23,
+      "status": "in_search_of_home"
+    },
+    {
+      "firstName": "testFirstName3",
+      "lastName": "testLastName3",
+      "department": "departments/zngKm7k9NxNJ3ENH4qSt",
+      "isVerified": true,
+      "hostingDuration": 100,
+      "distanceToCampus": 45,
+      "status": "in_search_of_mate"
+    },
+    {
+      "firstName": "testFirstName4",
+      "lastName": "testLastName4",
+      "department": "departments/P3eSj1xlf3xSalfb45Ee",
+      "isVerified": true,
+      "hostingDuration": 50,
+      "distanceToCampus": 78,
+      "status": "in_search_of_mate"
+    },
+    {
+      "firstName": "testFirstName5",
+      "lastName": "testLastName5",
+      "department": "departments/NJ2R8cOjx3hqYHmXjsbB",
+      "isVerified": true,
+      "hostingDuration": 70,
+      "distanceToCampus": 156,
+      "status": "not_in_search"
+    },
+    {
+      "firstName": "testFirstName6",
+      "lastName": "testLastName6",
+      "department": "departments/zxcpHp2DILqIgKbpHV2t",
+      "isVerified": true,
+      "hostingDuration": 65,
+      "distanceToCampus": 178,
+      "status": "in_search_of_home"
+    }
+  ]
+}
