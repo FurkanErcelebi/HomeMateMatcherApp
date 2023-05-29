@@ -11,7 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeMateMatcherApp"
         tools:targetApi="31" >
-        <activity android:name=".view.enter.StudentSignupActivity"
+
+        <activity android:name=".view.userlist.UserDetailActivity"
+                  android:exported="false"
+                  android:parentActivityName=".view.userlist.UserListingActivity"/>
+        <activity android:name=".view.userlist.UserListingActivity"
             android:label="@string/app_name"
             android:exported="true">
             <intent-filter>
