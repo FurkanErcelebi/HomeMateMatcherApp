@@ -8,7 +8,7 @@ public class User {
     private  String firstName;
     private  String lastName;
     private  SearchStatus searchStatus;
-    private  String department;
+    private  Department department;
     private  Double distanceToCampus;
     private  Long hostingTime;
     private  Boolean isVerified;
@@ -20,7 +20,7 @@ public class User {
     }
 
     public User(String firstName, String lastName, SearchStatus searchStatus
-                , String department, Double distanceToCampus, Long hostingTime
+                , Department department, Double distanceToCampus, Long hostingTime
             , Boolean isVerified, String content, String details, String id) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -58,11 +58,11 @@ public class User {
         this.searchStatus = searchStatus;
     }
 
-    public String getDepartment() {
+    public Department getDepartment() {
         return department;
     }
 
-    public void setDepartment(String department) {
+    public void setDepartment(Department department) {
         this.department = department;
     }
 
