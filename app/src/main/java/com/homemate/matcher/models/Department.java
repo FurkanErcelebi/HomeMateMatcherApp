@@ -2,14 +2,24 @@ package com.homemate.matcher.models;
 
 public class Department {
 
+    private String id;
     private String name;
     private String label;
-    private Integer code;
+    private Long code;
 
-    public Department(String name, String label, Integer code) {
+    public Department(String id, String name, String label, Long code) {
+        this.id = id;
         this.name = name;
         this.label = label;
         this.code = code;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -28,11 +38,11 @@ public class Department {
         this.label = label;
     }
 
-    public Integer getCode() {
+    public Long getCode() {
         return code;
     }
 
-    public void setCode(Integer code) {
+    public void setCode(Long code) {
         this.code = code;
     }
 }
